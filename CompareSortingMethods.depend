@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1496061050 source:c:\users\matheus monteiro\c-workspace\comparesortingmethods\main.cpp
+	<cstdlib>
+	<iostream>
+	<ctime>
+	<vector>
+	<chrono>
+	<random>
+	<algorithm>
+
