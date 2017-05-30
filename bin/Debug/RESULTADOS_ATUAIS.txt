@@ -1,0 +1,302 @@
+================= 10 =================
+--> Insertion Sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Selection Sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Shellsort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Heapsort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Mergesort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Quicksort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::stable_sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::sort_heap:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+================= 100 =================
+--> Insertion Sort:
+
+[Time]
+	|- Random vector time: 0.156 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Selection Sort:
+
+[Time]
+	|- Random vector time: 0.156 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Shellsort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Heapsort:
+
+[Time]
+	|- Random vector time: 0.156 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Mergesort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Quicksort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::stable_sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0.156 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::sort_heap:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0.156 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+================= 1000 =================
+--> Insertion Sort:
+
+[Time]
+	|- Random vector time: 1.092 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0.468 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Selection Sort:
+
+[Time]
+	|- Random vector time: 2.496 milliseconds.
+	|- Sequential vector time: 2.18402 milliseconds.
+	|- Reverse vector time: 2.652 milliseconds.
+	|- A half order vector time: 2.652 milliseconds.
+
+--> Shellsort:
+
+[Time]
+	|- Random vector time: 0.312 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Heapsort:
+
+[Time]
+	|- Random vector time: 0.156 milliseconds.
+	|- Sequential vector time: 0.624 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0.468 milliseconds.
+
+--> Mergesort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0.156 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Quicksort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0.156 milliseconds.
+
+--> std::sort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0.312 milliseconds.
+	|- Reverse vector time: 0 milliseconds.
+	|- A half order vector time: 0.156 milliseconds.
+
+--> std::stable_sort:
+
+[Time]
+	|- Random vector time: 0.156 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0.156 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> std::sort_heap:
+
+[Time]
+	|- Random vector time: 0.312 milliseconds.
+	|- Sequential vector time: 0.312 milliseconds.
+	|- Reverse vector time: 0.312 milliseconds.
+	|- A half order vector time: 0.468 milliseconds.
+
+================= 10000 =================
+--> Insertion Sort:
+
+[Time]
+	|- Random vector time: 57.0961 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 111.852 milliseconds.
+	|- A half order vector time: 13.8841 milliseconds.
+
+--> Selection Sort:
+
+[Time]
+	|- Random vector time: 240.708 milliseconds.
+	|- Sequential vector time: 245.076 milliseconds.
+	|- Reverse vector time: 243.048 milliseconds.
+	|- A half order vector time: 243.984 milliseconds.
+
+--> Shellsort:
+
+[Time]
+	|- Random vector time: 1.56001 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 0.624 milliseconds.
+	|- A half order vector time: 0.624 milliseconds.
+
+--> Heapsort:
+
+[Time]
+	|- Random vector time: 0 milliseconds.
+	|- Sequential vector time: 0 milliseconds.
+	|- Reverse vector time: 15.6 milliseconds.
+	|- A half order vector time: 0 milliseconds.
+
+--> Mergesort:
+
+[Time]
+	|- Random vector time: 1.404 milliseconds.
+	|- Sequential vector time: 0.93601 milliseconds.
+	|- Reverse vector time: 1.248 milliseconds.
+	|- A half order vector time: 0.936 milliseconds.
+
+--> Quicksort:
+
+[Time]
+	|- Random vector time: 1.404 milliseconds.
+	|- Sequential vector time: 0.624 milliseconds.
+	|- Reverse vector time: 0.312 milliseconds.
+	|- A half order vector time: 0.78 milliseconds.
+
+--> std::sort:
+
+[Time]
+	|- Random vector time: 1.872 milliseconds.
+	|- Sequential vector time: 1.716 milliseconds.
+	|- Reverse vector time: 1.09201 milliseconds.
+	|- A half order vector time: 1.716 milliseconds.
+
+--> std::stable_sort:
+
+[Time]
+	|- Random vector time: 2.65201 milliseconds.
+	|- Sequential vector time: 0.936 milliseconds.
+	|- Reverse vector time: 1.872 milliseconds.
+	|- A half order vector time: 1.716 milliseconds.
+
+--> std::sort_heap:
+
+[Time]
+	|- Random vector time: 5.304 milliseconds.
+	|- Sequential vector time: 5.14802 milliseconds.
+	|- Reverse vector time: 5.148 milliseconds.
+	|- A half order vector time: 5.30402 milliseconds.
+
+================= 100000 =================
+--> Insertion Sort:
+
+[Time]
+	|- Random vector time: 5583.56 milliseconds.
+	|- Sequential vector time: 0.468 milliseconds.
+	|- Reverse vector time: 11162.6 milliseconds.
+	|- A half order vector time: 1396.36 milliseconds.
+
+--> Selection Sort:

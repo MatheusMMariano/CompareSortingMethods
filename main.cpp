@@ -5,6 +5,7 @@
 #include <chrono>
 #include <random>
 #include <algorithm>
+#include <iomanip>
 
 using namespace std;
 using namespace std::chrono;
@@ -202,8 +203,9 @@ void show(vector<int> v){
 template<class Functor>
 void time_sort(Functor f, int n){
 	double total_r = 0, total_s = 0, total_rv = 0, total_h = 0;
+	int jhuan = 1;
 
-	for(int i = 0; i < 100; i++){
+	for(int i = 0; i < jhuan; i++){
 	    vector<int> vec_r(n), vec_s(n), vec_rv(n), vec_h(n);
 
 	    random_vector(vec_r);
@@ -212,24 +214,32 @@ void time_sort(Functor f, int n){
 	    half_order_vector(vec_h);
 
 	    //Random vector
+		//show(vec_r);
 		auto start_r = chrono::steady_clock::now();
 		f(vec_r, n);
 		auto stop_r  = chrono::steady_clock::now();
+		//show(vec_r);
 
 	    //Sequencial vector
+	    //show(vec_s);
 		auto start_s = chrono::steady_clock::now();
 		f(vec_s, n);
 		auto stop_s  = chrono::steady_clock::now();
+        //show(vec_s);
 
 	    //Reverse vector
+		//show(vec_rv);
 		auto start_rv = chrono::steady_clock::now();
 		f(vec_rv, n);
 		auto stop_rv  = chrono::steady_clock::now();
+		//show(vec_rv);
 
 		//A half order vector
+		//show(vec_h);
 		auto start_h = chrono::steady_clock::now();
 		f(vec_h, n);
 		auto stop_h  = chrono::steady_clock::now();
+        //show(vec_h);
 
     	//Final time
 		total_r = total_r   + chrono::duration<double, milli> (stop_r-start_r).count();
@@ -239,10 +249,10 @@ void time_sort(Functor f, int n){
   	}
 
   	cout << "\n\n[Time]" << endl;
-  	cout << "\t|- Random vector time: "     << (total_r/100)   << " milliseconds."   << endl;
-  	cout << "\t|- Sequential vector time: " << (total_s/100)   << " milliseconds."   << endl;
-  	cout << "\t|- Reverse vector time: "    << (total_rv/100)  << " milliseconds."   << endl;
-  	cout << "\t|- A half order vector time: " << (total_h/100)  << " milliseconds.\n"   << endl;
+  	cout << "\t|- Random vector time: "     << (total_r/jhuan)   << " milliseconds."   << endl;
+  	cout << "\t|- Sequential vector time: " << (total_s/jhuan)   << " milliseconds."   << endl;
+  	cout << "\t|- Reverse vector time: "    << (total_rv/jhuan)  << " milliseconds."   << endl;
+  	cout << "\t|- A half order vector time: " << (total_h/jhuan)  << " milliseconds.\n"   << endl;
 }
 
 void test_case(int n){
@@ -281,6 +291,9 @@ void test(vector<int> &container){
 }
 
 int main(){
+    cout << fixed;
+    cout << setprecision(6);
+
 	for(int i = 10; i <= 100000; i=i*10) test_case(i);
 	return 0;
 }
